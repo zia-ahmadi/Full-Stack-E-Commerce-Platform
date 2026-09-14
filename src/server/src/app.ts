@@ -39,6 +39,7 @@ export const createApp = async () => {
     process.exit(1);
   });
 
+  console.log("STEP: DB connected");
   const httpServer = new HTTPServer(app);
 
   // Initialize Socket.IO
